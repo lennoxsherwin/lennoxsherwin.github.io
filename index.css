@@ -1,55 +1,18 @@
 body{
   max-width: 100%;
-}
-video {
-  min-width: 30%;
-  min-height: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: 1;
-}
-a{
-  text-decoration: none;
-  color: black;
-  padding: 2px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
 }
 h1{
   font-size: 8vh;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: sticky;
+footer{
+  position: relative;
   bottom: 0;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-  text-decoration: none;
-  color: white;
-}
-
-.nav_colour{
-  background-color: #1f4068;
-  color: #1f4068;
+  width: 100%;
+  height: 40%;
+  background-color: #f0f5f9;
 }
 .text_shadow_white{
   text-shadow: 2px 2px 4px #000000;
@@ -61,7 +24,7 @@ li a:hover {
   width: 40%;
   text-align: center;
   position: relative;
-  padding: 10px;
+  padding: 3px;
   top: 25%;
   left: 2%;
 
@@ -74,80 +37,67 @@ li a:hover {
   top: 25%;
   left: 60%;
 }
-#nav{
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 200;
-}
-#main_links{
-  width: 100%;
-  height: auto;
-  position: relative;
-  top: 0%;
-}
-#video_div{
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  /*margin: 0 auto;*/
-  top: 50%;
-  position: absolute;
-}
-#div1{
+.background_style{
   width: 100%;
   height: 85%;
   max-height: 85%;
-  overflow: hidden;
-  background-image: url('contact_us.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: right bottom;
   background-size: 65% 100%;
+}
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  100% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+}
+.first-text {
+  animation-name: topFadeOut;
+  animation-duration: 3s;
+}
+#main_links{
+  padding: 5px;
+}
+#div1{
+  overflow: hidden;
+  background-image: url('bbt_main.jpg');
+  background-position: right bottom;
   background-color: #fff4e1;
 }
 #div2{
-  width: 100%;
-  height: 85%;
-  max-height: 85%;
-  background-image: url('online_shopping_2.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-image: url('about_us_3.png');
   background-position: left bottom;
-  background-size: 65% 100%;
 }
 #div3{
-  width: 100%;
-  height: 85%;
-  max-height: 85%;
-  background-image: url('software_consultancy_2.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-image: url('online_shopping_2.png');
   background-position: right bottom;
-  background-size: 65% 100%;
 }
 #div4{
-  width: 100%;
-  height: 85%;
-  max-height: 85%;
-  background-image: url('software_development.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-image: url('project_management.jpg');
   background-position: left bottom;
-  background-size: 65% 100%;
 }
 #div5{
-  width: 100%;
-  height: 85%;
-  max-height: 85%;
-  background-image: url('shopping.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-image: url('software_consultancy_2.jpg');
   background-position: right bottom;
-  background-size: 60% 100%;
+}
+#div6{
+  background-image: url('software_development.png');
+  background-position: left bottom;
+}
+#div7{
+  background-image: url('shopping.jpg');
+  background-position: right bottom;
+}
+#div8{
+  background-image: url('contact_us.png');
+  background-position: left bottom;
 }
