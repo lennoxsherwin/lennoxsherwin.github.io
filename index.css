@@ -50,10 +50,8 @@ a:hover{
   padding-top: 20px;
 }
 #div1{
-  padding: 3px;
-  margin-top: 1px;
-  margin-left: 1px;
-  margin-right: 1px;
+  padding: 1%;
+  margin:1px;
   /*overflow: hidden;
   background-image: url('bbt_main.jpg');
   background-position: right bottom;
@@ -91,3 +89,39 @@ a:hover{
   background-image: url('contact_us.png');
   background-position: left bottom;
 }*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  i{
+    padding: 3%;
+  }
+  .card{
+    min-width: 50%;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .card{
+    min-width: 33.33%;
+  }
+  #div1{
+      padding: 1%;
+  }
+  #div2{
+    width: 60%;
+    margin-left: 20%;
+  }
+  #big_container{
+    background-color: black ;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
