@@ -1,7 +1,9 @@
 body{
   max-width: 100%;
   position: relative;
-  background-color: inherit;
+}
+.card{
+  margin-top: 0px;
 }
 footer{
   /*margin-top: 0;
@@ -49,6 +51,9 @@ a:hover{
 }
 #div1{
   padding: 3px;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
   /*overflow: hidden;
   background-image: url('bbt_main.jpg');
   background-position: right bottom;
