@@ -52,6 +52,9 @@ a:hover{
   background-position: right bottom;*/
   background-color: #fff4e1;
 }
+#div2{
+  background-color: black;
+}
 /*#div2{
   background-image: url('about_us_3.png');
   background-position: left bottom;
