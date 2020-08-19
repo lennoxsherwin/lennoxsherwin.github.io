@@ -1,6 +1,7 @@
 body{
   max-width: 100%;
   position: relative;
+  background-color: inherit;
 }
 footer{
   /*margin-top: 0;
@@ -47,10 +48,12 @@ a:hover{
   padding-top: 20px;
 }
 #div1{
+  padding: 3px;
   /*overflow: hidden;
   background-image: url('bbt_main.jpg');
-  background-position: right bottom;*/
-  background-color: #fff4e1;
+  background-position: right bottom;
+  background-color: #fff4e1;*/
+  background-color: #07031a;
 }
 #div2{
   background-color: black;
