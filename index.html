@@ -106,14 +106,20 @@
         </a>
       </div>
     </div>-->
-
+    <div class="text-center" id="button_group">
+      <button type="button" class="btn btn-outline-primary">Online Shopping</button>
+      <button type="button" class="btn btn-outline-light">PMP Training</button>
+      <button type="button" class="btn btn-outline-success">Software Consultancy</button>
+      <button type="button" class="btn btn-outline-danger">Software Development</button>
+      <button type="button" class="btn btn-outline-warning">Showroom</button>
+    </div>
 
   </div>
       <!--<div class="container">
         <div class="row">
 
           <div class="col-4">
-            <button type="button" class="btn btn-light">Online Shopping</a>
+            <button type="button" class="btn-outline btn-light">Online Shopping</a>
           </div>
           <div class="col-4">
             <a href="" class="btn btn-warning">PMP Training</a>
@@ -132,6 +138,7 @@
 
         </div>
       </div>-->
+
 
 <div class="card-group">
   <div id="div3" class="card bg-dark text-white mb-3 border-light">
@@ -224,7 +231,8 @@
   <script>
 $(document).ready(function(){
   $('.carousel').carousel({
-  interval: 3000
+  interval: 3000;
+  pause: "hover";
   })
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 10});

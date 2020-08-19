@@ -45,9 +45,8 @@ a:hover{
   animation-name: topFadeOut;
   animation-duration: 3s;
 }
-#main_links{
-  /*padding: 5px;*/
-  padding-top: 20px;
+#button_group{
+  display: none;
 }
 #div1{
   padding: 1%;
@@ -91,7 +90,9 @@ a:hover{
 }*/
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-
+  #button_group{
+    display: none;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -101,6 +102,9 @@ a:hover{
   }
   .card{
     min-width: 50%;
+  }
+  #button_group{
+    display: none;
   }
 }
 
@@ -113,11 +117,15 @@ a:hover{
       padding: 1%;
   }
   #div2{
-    width: 60%;
-    margin-left: 20%;
+    width: 50%;
+    margin-left: 25%;
   }
   #big_container{
     background-color: black ;
+  }
+  #button_group{
+    display: block;
+  padding: 1%;
   }
 }
 
