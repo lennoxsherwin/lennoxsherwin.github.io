@@ -6,14 +6,11 @@ body{
   margin-top: 0px;
 }
 footer{
-  /*margin-top: 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;*/
-  /*background-color: #f0f5f9;*/
   padding: 10px;
   background-color: #fff4e1;
-
+}
+nav{
+  margin-bottom: 0;
 }
 i{
   padding: 5%;
@@ -93,10 +90,13 @@ a:hover{
   #button_group{
     display: none;
   }
+  .card{
+    min-width: 100%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   i{
     padding: 3%;
   }
@@ -121,7 +121,7 @@ a:hover{
     margin-left: 25%;
   }
   #big_container{
-    background-color: black ;
+    background-color: black;
   }
   #button_group{
     display: block;
