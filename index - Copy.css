@@ -1,0 +1,114 @@
+body{
+  max-width: 100%;
+  position: relative;
+}
+.card{
+  margin-top: 0px;
+}
+footer{
+  padding: 10px;
+  background-color: #fff4e1;
+}
+nav{
+  margin-bottom: 0;
+}
+i{
+  padding: 5%;
+}
+a{
+  color: black;
+}
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+}
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  100% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+}
+.first-text {
+  animation-name: topFadeOut;
+  animation-duration: 3s;
+}
+#button_group{
+  display: none;
+}
+#div1{
+  padding: 1%;
+  margin:1px;
+  /*overflow: hidden;
+  background-image: url('bbt_main.jpg');
+  background-position: right bottom;*/
+  background-color: #fff4e1;
+}
+#div2{
+  background-color: #fff4e1;
+}
+@media (min-width: 576px) {
+  #button_group{
+    display: none;
+  }
+  .card{
+    min-width: 100%;
+  }
+  h1{
+    font-size: 6rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 600px) {
+  i{
+    padding: 3%;
+  }
+  .card{
+    min-width: 50%;
+  }
+  #button_group{
+    display: none;
+  }
+  h1{
+    font-size: 5rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .card{
+    min-width: 33.33%;
+  }
+  #div1{
+      padding: 1%;
+  }
+  #div2{
+    width: 50%;
+    margin-left: 25%;
+  }
+  #big_container{
+    background-color: black;
+  }
+  #button_group{
+    display: block;
+  padding: 1%;
+  }
+  h1{
+    font-size: 6rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,3 @@
+Sitemap: http://www.bestbuytrading.com/bbt_main_sitemap.xml
+User-agent: *
+Disallow: /images/
